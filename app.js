@@ -8,5 +8,5 @@ let cors = require("cors");
 app.use(cors());
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hi World!'))
 app.use("/testAPI", testAPIRouter);
